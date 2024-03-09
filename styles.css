@@ -1,330 +1,752 @@
-@media all and(max-width: 480px){
-    body{
-
-    }
-}
-
-
-.div1{
-    top: 0;
+.firstdiv{
     background-color: black;
-    color: white;
-    height: 40px;
-    
+    color:whitesmoke;
+    display: flex;
+    top: 0;
 }
 
-#firstpara{
-    text-decoration: none;
+#Molling{
+    text-align: center;
+}
+
+#topmostpara1{
+    margin-left: 20%;
+    margin-bottom: 0;
+    margin-top: 2%;
+    margin-left: 10%;
+    padding-left: 1px;
+}
+
+#topmostpara{
+    margin-left: 20%;
+}
+
+
+#getfreeestimate{
     color: whitesmoke;
     font-weight: bold;
+}
 
+#emailicon{
+    width: 25px;
 }
 
 
-.navdivs{
-    margin-left: 20%;
+/* nav section */
+
+.seconddiv1{
     display: flex;
+    margin-top: 2%;
     gap: 50px;
 }
 
-.smoothmoving{
-    margin-left: 35%;
-    margin-top: 10%;
 
+#emaillink{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#emailicon{
+    margin-top: 2%;
+    padding: 10px;
+    margin-bottom: 5px;
 }
 
-#parasmo{
-    font-weight: bolder;
-    color: azure;
-    font-size: xx-large;
-    text-align: center;
-    
-
+#topnavbar{
+    display: flex;
+    gap: 50px;
+    margin-left: 30%;
 }
-
 
 
 .topnavbar{
     text-decoration: none;
     color: black;
+    font-size:large;
     font-weight: bold;
-    
 }
 
-#riaadlogo{
-    margin: 20%;
+
+/* secondmaindiv */
+
+.secondmaindiv{
+display: flex;
+margin-top: 1%;
+gap: 1000px;
 }
 
-#divnav{
-    display:flex;
+
+.seconddiv2{
+    display: flex;
+
 }
 
-.divwithbackgroundimage{
-    background-image: url('./webimages/background.avif');
-    height: 700px;
-    width: 100%;
+#phoneicon{
+    width: 25px;
+}
+
+
+
+
+
+/* BODY DIV */
+
+.body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./webimages/backgroundimage.jpeg');
     background-size: cover;
-    position: absolute;
-}
-    
-
-#logo{
-    margin-left: 20%;
-}
-
-#services{
-    display: flex;
-    gap: 70px;
-    margin-left: 20%;
-    
-
-
-}
-
-#ourservice{
-    color: orange;
-}
-
-#whatwedo{
-    font-weight: bolder;
-    font-size: xx-large;
-    margin-left: 10%;
-}
-
-#whatwedo{
-    margin: 15%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 40%;
-
-}
-
-#parasmoo{
-    font-weight: bolder;
-    font-size: xx-large;
-    text-align: center;
-    margin-left: 20%;
-}
-
-.smoothmoving{
-    margin-left: 5%;
-}
-
-#makeiteasy{
-    font-weight: bolder;
-    font-size: xx-large;
-    text-align: center;
-    margin-left: 20%;
-    color: aliceblue;
-}
-
-
-#serve{
-    font-weight: bold;
-    font-size: x-large;
-    text-decoration: none;
-    color: black;
-
-}
-
-#help{
-    display: flex;
-    gap: 20px;
-    margin-left: 20%;
-}
-
-
-#helppara{
-font-weight: bolder;
-font-size: x-large;
-}
-
-
-
-#getstartedbutton{
-    background-color:orange;
+    height: 900px;
     margin-top: 2%;
-    margin-left: 40%;
-    height: 50px;
-    width: 120px;
-    align-content: center;
-    
+    position: relative;
 
 }
+
+
+#backgroundwordz{
+    margin-left: 50%;
+    margin-top: 2%;
+}
+#backgroundword{
+    margin-left:3% ;
+    margin-top:3%;
+
+    
+    
+}
+
+#bu{
+    background-color: orange;
+    color: whitesmoke;
+    margin-top: 5%;
+    margin-left: 40%;
+    border-radius: 1px;
+    height: 70px;
+    width: 300px;
+}
+
+.smfyf{
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.mv{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+
+
+/* <!-- AFTER THE BACKGROUND IMAGE --> */
 
 #learnaboutus{
     color: orange;
     font-weight: bold;
+    font-size: medium;
+
+    
 }
 
-#linkinbutton{
-    text-decoration: none;
-    color: whitesmoke;
+.flexeddivs{
+    display: flex;
+    gap: 200px;
+}
+
+
+
+#wordflex{
+    display: flex;
+    gap: 50px;
+}
+
+#riaadsince{
+    color: orange;
+    font-weight: bold;
+}
+
+#y2007{
     font-weight: bolder;
+    font-size: xx-large;
+
 }
 
-.twodivs{
+/* icons in line */
+
+.iconinlines{
     display: flex;
+    gap: 50px;
+    margin-left: 100px;
 }
 
-.divs{
+/* <!-- our services section --> */
+
+#ourservices{
+    color: orange;
+    margin-top: 70%;
+    font-weight: bolder;
+    margin-left: 40%;
+}
+
+#whatwedo{
+    margin-left: 40%;
+    font-weight: bolder;
+    font-size: xx-large;
+    
+}
+
+#servicesdiv{
     display: flex;
+    margin-left: 15%;
+    gap: 20%;
+}
+
+#storage{
+    
+    width: 100px;
+}
+
+#servicelinks{
+    color: orange;
+    font-weight: bold;
 }
 
 
-
-
-
-
-/* Footer */
-
-.footerdiv{
-    border: 2px solid;
-    width: 100%;
+#smallvid{
+    display: flex;
+    gap: 700px;
+    margin-top: 10%;
 }
 
-
-#imagefooter{
-    background-image: url('./webimages/pic1.png');
-    background-size: cover;
-
+#p2{
+    font-size: xx-large;
+    padding: 5px;
+    margin-left: 10%;
+    font-style:initial;
+    font-weight: 900;
+    padding-right: 5px;
 }
 
-.footersubdiv{
-    display:flex;
+#smallvideo{
+    height: 300px; 
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./webimages/video.jpg');
+    width: 600px;
 }
 
-
-.bookusnow{
-    border: 1px yellow;
-    background-color: yellow;
-    width: 30%;
-
+#video{
+    display: flex;
+    
 }
 
-
-.movingtype{
-    background-color: blue;
-    width: 40%;
+#videopara{
+    font-weight: bold;
+    color: rgb(38, 37, 37);
 }
 
-#datediv{
-    background-color: blue;
-    width: 40%;
+#playbutton{
+    margin: 20%;
+    margin-left: 45%;
     
 }
 
 
 
 
-.feedback{
-    display: flex;
-    padding: 30px;
-    align-content: center;
-}
 
-#feedback1{
-    padding: 40px;
-}
+/* we are leading in moving business */
 
-#feedback2{
-    padding: 40px;
-}
-
-#feedback3{
-    padding: 40px;
+.riaadverified{
+    border: 1px rgb(112, 112, 164);
+    background-color: rgb(65, 65, 242);
+    width: 700px;
+    height: 600px;
+    
 }
 
 
-#subsribe{
-    display: flex;
-    margin-left: 20%;
-}
+#riaadverified{
+margin-top: 10%;
+height: 500px;
+width: 600px;
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./webimages/riaadverified.webp');
+padding: 4px;
 
-
-.div123{
-    display: flex;
-    padding: 30px
-
-}
-
-#div01{
-border: 1px;
-background-image: url('./webimages/pic4.jpg');
-width: 100px;
-padding: 40px;
-align-content: center;
-}
-
-#div02{
-    width: 100px;
-padding: 40px;
-background-image: url('./webimages/pic4.jpg');
 
 }
 
-#div03{
-    background-image: url('./webimages/pic4.jpg');
-    width: 100px;
-padding: 40px;
-}
-
-
-
-.mainfooter{
-    background-color: orange;
-}
-
-#buttonpara{
-    font-weight: bolder;
-    color: whitesmoke;
+#borderveri{
+    border: 2px;
+    background-color: aliceblue;
+    width: 250px;
+    height: 150px;
     margin-left: 10%;
+    margin: 20%;
     margin-top: 10%;
-    margin-bottom:0%;
-    padding: 70px;
+    padding: 10px;
+}
+
+
+#innerpara{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 15%;
+    font-size: larger;
+}
+
+#innerlink{
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 15%;
+}
+
+#doyou{
+    color: whitesmoke;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+.biggerdiv{
+    display: flex;
+    gap: 400px;
+    height: 700px;
+
+}
+
+#choose{
+    margin-top: 10%;
+
+}
+
+
+
+.yellowticks{
+    display: flex;
+}
+
+.chooselink{
+    color: orange;
+    font-weight: bold;
+}
+
+
+
+#paragraph{
+    font-size: large;
+    margin-bottom: 15%;
+}
+
+.paraz1{
+    margin-bottom: 15%;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.paraz{
+    font-weight: lighter;
     font-size: x-large;
 
 }
 
-#discoverbutton{
-    background-color: black;
-    color: white;
-    height: 50px;
-    margin-left: 80%;
-    margin-top: 0;
+
+
+
+
+#book{
+    text-align: center;
+    color: rgb(63, 62, 62);
+    margin-top: 5%
+}
+
+#bookonline{
+    color: orange;
+    font-weight: bolder;
+}
+
+
+
+
+/* div with form */
+
+#formdiv{
+    border: 2px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./webimages/form.jpg');
+    background-size: cover;
+    height: 700px;
+    padding-bottom: 50px;
+}
+
+
+#formbutton{
+    margin: 30%;
+    width: 170px;
+    margin-top:15% ;
+    margin-left: 40%;
+}
+
+
+
+#wholeform{
+    display: flex;
+    height: 400px;
     margin-bottom: 5%;
 }
 
-.enddiv{
+
+
+
+#bookuslink{
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-left: 20%;
+    margin-top: 20%;
+    
+}
+
+
+#bookuspara{
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 20%;
+    font-size: x-large;
+}
+
+
+
+
+
+#formdiv1{
+    border: 2px;
+    background-color: orange;
+    width: 30%;
+}
+
+#formdiv2{
+    background-color: rgb(60, 60, 231);
+    width: 70%;
+
+}
+
+#allforms{
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+
+
+#form1{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5%;
+}
+
+#movingtype{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+
+
+#form2{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5%;
+
+    
+}
+
+#movingtype{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: large;}
+
+
+
+#input{
+height: 50px;
+width: 200px;
+}
+
+
+
+#form3{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5%;
+}
+
+
+
+
+#movingtype{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: large;}
+
+
+
+#forbutton{
+    margin-top: 2%;
+}
+
+
+
+#buttonstyle{
+    color: whitesmoke;
+    background-color: orange;
+    font-weight: bolder;
+    border-radius: 5px;
+    height: 55px;
+    width: 210px;
+
+}
+
+
+
+
+
+/* our testimonials */
+
+
+
+#testimonials{
+    color: orange;
+    font-size: small;
+    font-weight: bolder;
+    margin: 30%;
+    margin-top: 40%;
+    margin-left: 45%;
+}
+
+
+
+#theysay{
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+
+
+#comments{
+    display: flex;
+    gap: 100px;
+    margin-left: 25%;
+    
+}
+
+
+
+#christine{
+    color: orange;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#customer{
+    color: rgb(72, 70, 70);
+    font-weight: bold;
+    margin-left: 25%;
+}
+
+
+
+#quotes{
+    margin-left: 25%;
+}
+
+#christine{
+    width: 30px;
+    border-radius: 50px;
+    margin-left: 25%;
+}
+
+
+.para{
+    margin-bottom: 10%;
+    padding: 10%;
+}
+
+
+
+
+
+#join{
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+#NEWSLETTER{
+    color: orange;
+    font-weight: bolder;
+    font-size: small;
+}
+
+#updates{
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+#emailandnow{
+    display: flex;
+    gap: 400px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+
+
+
+
+#buttonnow{
+    background-color: orange;
+    color: whitesmoke;
+    font-size: smaller;
+    font-weight: bolder;
+    border-radius: 2px;
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+#blognew{
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+#ourblog{
+    color: orange;
+    font-weight: bold;
+    font-size: small;
+}
+
+#new{
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+
+#images{
+    display: flex;
+    gap: 50px;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+#img1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./webimages/img1.jpg');
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+}
+
+#img2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./webimages/img2.jpg');
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+}
+
+#img3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./webimages/img3.jpg);
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+}
+
+
+
+#p1{
+    color:rgb(94, 93, 93);
+    font-size: smaller;
+    margin-bottom: 50%;
+    padding: 10%;
+}
+#p21{
+    font-weight: bolder;
+    font-size: x-large;
+    color: whitesmoke;
+    margin-top:50%;
+
+
+}
+
+
+
+#footerdiv{
+    background-color: orange;
+    height: 190px;
+}
+
+
+#foot{
+    display: flex;
+    gap: 120px;
+    margin-left: 20%;
+}
+
+
+#pdiscover{
+    font-size: larger;
+    color: whitesmoke;
+    font-weight: bolder;
+
+    margin-top: 20%;
+}
+
+#discover{
     background-color: black;
     color: whitesmoke;
-    display: flex;
-    gap: 80px;
-
+    margin-top: 20%;
+    height: 60px;
+    width: 200px;
 }
 
-#address{
-    color: gray;
-}
-
-#enddiv1{
-    margin-left: 30%;
-}
-
-
-#enddiv3{
-    text-decoration: none;
-}
-
-#link1{
-    text-decoration: none;
+#phoneadd{
     color:gray;
+    font-weight: bolder;
+
+}
+
+#el{
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+#le{
+    color: gray;
+    font-weight: bold;
 }
 
 
-
-
-.pagebottom{
+#footerdiv1{
     background-color: black;
-    color: gray;
+    margin-top: 0%;
+    
+}
+
+
+#fo{
+    display: flex;
+    gap: 200px;
+    margin-left: 20%;
+    color: whitesmoke;
 }
